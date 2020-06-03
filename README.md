@@ -17,4 +17,6 @@ Spring boot Websocket project with Maven
 **Step 2:** Start the test ``WebsocketClient.java`` Client using java main method.
 #### How its works
 * ``TradeStompSessionHandler.java`` is the test handler which contains dummy ``Subscription.java`` and handleFrame method show the subscribe data (``TradeOHLCResponse.java``).
-
+* Test Subscription: Symbol - XZECXXBT
+#### Data
+* Data stored in trades.json 
